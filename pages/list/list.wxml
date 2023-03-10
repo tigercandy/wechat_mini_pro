@@ -1,3 +1,2 @@
 <!--pages/list/list.wxml-->
-<image></image>
-<image src="/images/huge.webp" mode="aspectFill"></image>
+<view class="username" wx:for="{{userList}}" wx:key="id">{{item.name}}</view>

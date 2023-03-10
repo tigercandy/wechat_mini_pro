@@ -5,7 +5,42 @@ Page({
    * 页面的初始数据
    */
   data: {
+    userList: [
+      {id: 1, name: "小红"},
+      {id: 2, name: "小明"},
+      {id: 1, name: "小红"},
+      {id: 2, name: "小明"},
+      {id: 1, name: "小红"},
+      {id: 2, name: "小明"},
+      {id: 1, name: "小红"},
+      {id: 2, name: "小明"},
+      {id: 1, name: "小红"},
+      {id: 2, name: "小明"},
+      {id: 1, name: "小红"},
+      {id: 2, name: "小明"}
+    ]
+  },
 
+  // 定义按钮事件
+  btnTapHandler(e) {
+    console.log(e)
+  },
+
+  addCount() {
+    this.setData({
+      count: this.data.count + 1
+    })
+  },
+
+  btnTap(e) {
+    console.log(e.target.dataset.info)
+    this.setData({
+      count: this.data.count + e.target.dataset.info
+    })
+  },
+
+  inputHandler(e) {
+    console.log(e.detail.value)
   },
 
   /**
@@ -49,7 +84,7 @@ Page({
   onPullDownRefresh() {
 
   },
-
+  
   /**
    * 页面上拉触底事件的处理函数
    */

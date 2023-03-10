@@ -1,23 +1,18 @@
 /* pages/list/list.wxss */
-.swiper-container {
-  height: 150px;
+@import "/common/common.wxss";
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.item {
-  height: 100%;
-  line-height: 150px;
-  text-align: center;
-  color: #fff;
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
 }
 
-swiper-item:nth-child(1) .item {
-  background-color: springgreen;
-}
-
-swiper-item:nth-child(2) .item {
-  background-color: aquamarine;
-}
-
-swiper-item:nth-child(3) .item {
-  background-color: blueviolet;
+.userinfo-nickname {
+  color: #aaaaaa;
 }
