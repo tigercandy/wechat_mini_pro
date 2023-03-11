@@ -1,2 +1,51 @@
 <!--pages/list/list.wxml-->
-<view class="username" wx:for="{{userList}}" wx:key="id">{{item.name}}</view>
+<!--轮播图-->
+<swiper class="swiper-container" indicator-dots="true" autoplay="true" interval="2000" circular="true" indicator-active-color="#1b7b2c" indicator-color="#ffffff">
+  <swiper-item>
+    <image src="/images/team-03.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/team-05.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/team-06.png"></image>
+  </swiper-item>
+</swiper>
+
+<!--宫格数据-->
+<view class="grid-list">
+  <view class="grid-item">
+    <navigator url="/pages/mine/mine" open-type="switchTab"><image src="/images/grid/chengshi.png"></image></navigator>
+    <text>城市</text>
+  </view>
+  <view class="grid-item" bindtap="gotoMine">
+    <image src="/images/grid/jiaotongchuhang.png"></image>
+    <text>出行</text>
+  </view>
+  <view class="grid-item" bindtap="gotoInfo">
+    <image src="/images/grid/koubei.png"></image>
+    <text>口碑</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/grid/qianbao.png"></image>
+    <text>钱包</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/grid/shoujichongzhishi.png"></image>
+    <text>手机充值</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/grid/yiliao_yiliaowendang.png"></image>
+    <text>医疗</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/grid/yinhangka.png"></image>
+    <text>银行卡</text>
+  </view>
+</view>
+
+<!--图片区域-->
+<view class="img-box">
+  <image src="/images/team-01.png" mode="widthFix"></image>
+  <image src="/images/team-02.png" mode="widthFix"></image>
+</view>

@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#1b7b2c",
+  "navigationBarTitleText": "本地生活",
+  "backgroundColor": "#1b7b2c"
 }

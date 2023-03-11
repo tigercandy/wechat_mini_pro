@@ -10,14 +10,6 @@ Page({
       {id: 2, name: "小明"},
       {id: 1, name: "小红"},
       {id: 2, name: "小明"},
-      {id: 1, name: "小红"},
-      {id: 2, name: "小明"},
-      {id: 1, name: "小红"},
-      {id: 2, name: "小明"},
-      {id: 1, name: "小红"},
-      {id: 2, name: "小明"},
-      {id: 1, name: "小红"},
-      {id: 2, name: "小明"}
     ]
   },
 
@@ -36,6 +28,45 @@ Page({
     console.log(e.target.dataset.info)
     this.setData({
       count: this.data.count + e.target.dataset.info
+    })
+  },
+
+  getInfo() {
+    wx.request({
+      url: 'https://api.apiopen.top/musicRankings',
+      method: "GET",
+      data: {
+        "page": 1
+      },
+      success: (res) => {
+        console.log(res.data)
+      }
+    })
+  },
+
+  postInfo() {
+    wx.request({
+      url: 'https://api.apiopen.top/post',
+      method: "POST",
+      data: {
+        "name": "candy",
+        "age": 27
+      },
+      success: (res) => {
+        console.log(res.data)
+      }
+    })
+  },
+
+  gotoMine() {
+    wx.switchTab({
+      url: '/pages/mine/mine',
+    })
+  },
+
+  gotoInfo() {
+    wx.navigateTo({
+      url: '/pages/info/info',
     })
   },
 

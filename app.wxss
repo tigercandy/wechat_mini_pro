@@ -13,5 +13,4 @@ view {
   padding: 10rpx;
   margin: 10rpx;
   border-radius: 8rpx;
-  background-color: springgreen;
 }
