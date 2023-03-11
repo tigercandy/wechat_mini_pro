@@ -1,0 +1,2 @@
+<!--pages/info/info.wxml-->
+<button bindtap="goBack">后退</button>
