@@ -51,9 +51,3 @@
     <text>装修</text>
   </navigator>
 </view>
-
-<!--图片区域-->
-<view class="img-box">
-  <image src="/images/team-01.png" mode="widthFix"></image>
-  <image src="/images/team-02.png" mode="widthFix"></image>
-</view>

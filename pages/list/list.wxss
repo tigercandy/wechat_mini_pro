@@ -23,8 +23,8 @@ swiper image {
 }
 
 .grid-item image {
-  width: 48rpx;
-  height: 48rpx;
+  width: 32rpx;
+  height: 32rpx;
 }
 
 .grid-item text {
