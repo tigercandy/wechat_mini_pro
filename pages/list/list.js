@@ -7,67 +7,6 @@ Page({
   data: {
   },
 
-  // 定义按钮事件
-  btnTapHandler(e) {
-    console.log(e)
-  },
-
-  addCount() {
-    this.setData({
-      count: this.data.count + 1
-    })
-  },
-
-  btnTap(e) {
-    console.log(e.target.dataset.info)
-    this.setData({
-      count: this.data.count + e.target.dataset.info
-    })
-  },
-
-  getInfo() {
-    wx.request({
-      url: 'https://api.apiopen.top/musicRankings',
-      method: "GET",
-      data: {
-        "page": 1
-      },
-      success: (res) => {
-        console.log(res.data)
-      }
-    })
-  },
-
-  postInfo() {
-    wx.request({
-      url: 'https://api.apiopen.top/post',
-      method: "POST",
-      data: {
-        "name": "candy",
-        "age": 27
-      },
-      success: (res) => {
-        console.log(res.data)
-      }
-    })
-  },
-
-  gotoMine() {
-    wx.switchTab({
-      url: '/pages/mine/mine',
-    })
-  },
-
-  gotoInfo() {
-    wx.navigateTo({
-      url: '/pages/info/info',
-    })
-  },
-
-  inputHandler(e) {
-    console.log(e.detail.value)
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */

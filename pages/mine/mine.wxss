@@ -1,8 +1,1 @@
 /* pages/mine/mine.wxss */
-.num-item {
-  border-radius: 8rpx;
-  line-height: 200rpx;
-  margin: 15rpx;
-  text-align: center;
-  color: #fff;
-}

@@ -3,18 +3,13 @@
     "pages/index/index",
     "pages/list/list",
     "pages/logs/logs",
-    "pages/mine/mine",
-    "pages/info/info",
-    "pages/shoplist/shoplist"
+    "pages/mine/mine"
   ],
   "window":{
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#1b7b2c",
     "navigationBarTitleText": "Wechat",
-    "navigationBarTextStyle":"white",
-    "enablePullDownRefresh": true,
-    "onReachBottomDistance": 50,
-    "backgroundColor": "#efefef"
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "color": "#000000",
