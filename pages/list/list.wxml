@@ -14,34 +14,42 @@
 
 <!--宫格数据-->
 <view class="grid-list">
-  <view class="grid-item">
-    <navigator url="/pages/mine/mine" open-type="switchTab"><image src="/images/grid/chengshi.png"></image></navigator>
-    <text>城市</text>
-  </view>
-  <view class="grid-item" bindtap="gotoMine">
-    <image src="/images/grid/jiaotongchuhang.png"></image>
-    <text>出行</text>
-  </view>
-  <view class="grid-item" bindtap="gotoInfo">
-    <image src="/images/grid/koubei.png"></image>
-    <text>口碑</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/grid/qianbao.png"></image>
-    <text>钱包</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/grid/shoujichongzhishi.png"></image>
-    <text>手机充值</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/grid/yiliao_yiliaowendang.png"></image>
-    <text>医疗</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/grid/yinhangka.png"></image>
-    <text>银行卡</text>
-  </view>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist?id=1&title=美食">
+    <image src="/images/grid/food.png"></image>
+    <text>美食</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist?id=3&title=KTV">
+    <image src="/images/grid/ktv.png"></image>
+    <text>KTV</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist?id=2&title=保洁">
+    <image src="/images/grid/baojie.png"></image>
+    <text>保洁</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist">
+    <image src="/images/grid/car.png"></image>
+    <text>汽车保养</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist">
+    <image src="/images/grid/house.png"></image>
+    <text>租房</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist">
+    <image src="/images/grid/study.png"></image>
+    <text>辅导班</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist">
+    <image src="/images/grid/work.png"></image>
+    <text>找工作</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist">
+    <image src="/images/grid/xiyu.png"></image>
+    <text>洗浴</text>
+  </navigator>
+  <navigator class="grid-item" url="/pages/shoplist/shoplist">
+    <image src="/images/grid/zx.png"></image>
+    <text>装修</text>
+  </navigator>
 </view>
 
 <!--图片区域-->

@@ -4,7 +4,8 @@
     "pages/list/list",
     "pages/logs/logs",
     "pages/mine/mine",
-    "pages/info/info"
+    "pages/info/info",
+    "pages/shoplist/shoplist"
   ],
   "window":{
     "backgroundTextStyle": "dark",

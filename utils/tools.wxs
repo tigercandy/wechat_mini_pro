@@ -1,0 +1,21 @@
+function toLower(str) {
+  return str.toLowerCase()
+}
+
+function toUpper(str) {
+  return str.toUpperCase()
+}
+
+function formatPhone(str) {
+  if (str.length !== 11) return str
+  var arr = str.split('')
+  arr.splice(3, 0, '-')
+  arr.splice(8, 0, '-')
+  return arr.join('')
+}
+
+module.exports = {
+  toLower: toLower,
+  toUpper: toUpper,
+  formatPhone: formatPhone
+}

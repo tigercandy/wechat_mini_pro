@@ -1,0 +1,39 @@
+/* pages/shoplist/shoplist.wxss */
+.shop-item {
+  display: flex;
+  border-radius: 8rpx;
+  padding: 15rpx;
+  margin: 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+}
+
+.thumb image {
+  width: 250rpx;
+  height: 250rpx;
+  display: block;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 24rpx;
+}
+
+.shop-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #424242;
+}
+
+.address {
+  color: #616161;
+}
+
+.phone {
+  color: #616161;
+}
+
+.business-hours {
+  color: #9E9E9E;
+}

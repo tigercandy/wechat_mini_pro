@@ -15,7 +15,7 @@ swiper image {
 
 .grid-item {
   width: 20%;
-  height: 100rpx;
+  height: 120rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
