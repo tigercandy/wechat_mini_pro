@@ -5,12 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    userList: [
-      {id: 1, name: "小红"},
-      {id: 2, name: "小明"},
-      {id: 1, name: "小红"},
-      {id: 2, name: "小明"},
-    ]
   },
 
   // 定义按钮事件
@@ -113,7 +107,6 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh() {
-
   },
   
   /**

@@ -1,4 +1,4 @@
 {
   "usingComponents": {},
-  "navigationBarBackgroundColor": "#FBBA00"
+  "onReachBottomDistance": 150
  }

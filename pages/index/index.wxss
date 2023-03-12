@@ -17,3 +17,8 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.box {
+  height: 2000rpx;
+  background-color: antiquewhite;
+}

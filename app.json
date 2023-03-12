@@ -7,14 +7,17 @@
     "pages/info/info"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1b7b2c",
     "navigationBarTitleText": "Wechat",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh": true,
-    "onReachBottomDistance": 50
+    "onReachBottomDistance": 50,
+    "backgroundColor": "#efefef"
   },
   "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1b7b2c",
     "list": [
       {
         "pagePath": "pages/index/index",

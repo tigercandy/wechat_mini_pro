@@ -15,5 +15,7 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  onShow() {},
+  onHide() {},
 })
