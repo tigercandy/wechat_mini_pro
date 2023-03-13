@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/home/home",
     "pages/index/index",
     "pages/list/list",
     "pages/logs/logs",
@@ -16,7 +17,7 @@
     "selectedColor": "#1b7b2c",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "/images/tab/home.png",
         "selectedIconPath": "/images/tab/home-active.png"
@@ -42,5 +43,10 @@
     ]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "color-component": "/components/color/color",
+    "pure-data": "/components/pureData/pureData",
+    "slot-component": "/components/slot/slot"
+  }
 }
