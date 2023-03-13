@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+<view></view>
+<test-component max="9"></test-component>
+<view>数据监听器</view>
+<color-component></color-component>
+
+<view>纯数据</view>
+<pure-data></pure-data>
+<view>插槽</view>
+<slot-component>
+  <view slot="before">这是通过插槽before填充的内容</view>
+  <view slot="after">这是通过插槽after填充的内容</view>
+</slot-component>

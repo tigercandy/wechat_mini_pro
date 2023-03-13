@@ -1,0 +1,7 @@
+<!--components/color/color.wxml-->
+<view class="color-container" style="background-color: rgb({{fullColor}});">
+  <text>颜色值是: {{fullColor}}</text>
+</view>
+<button size="mini" bindtap="changeR" type="default">R</button>
+<button size="mini" bindtap="changeG" type="primary">G</button>
+<button size="mini" bindtap="changeB" type="warn">B</button>

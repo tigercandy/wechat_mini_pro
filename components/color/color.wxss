@@ -1,0 +1,7 @@
+/* components/color/color.wxss */
+.color-container {
+  text-align: center;
+  line-height: 200rpx;
+  color: #ffffff;
+  font-size: 24rpx;
+}

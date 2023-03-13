@@ -1,0 +1,6 @@
+<!--components/solt/solt.wxml-->
+<view>
+  <slot name="before"></slot>
+  <view>这里是组件的结构部分</view>
+  <slot name="after"></slot>
+</view>
