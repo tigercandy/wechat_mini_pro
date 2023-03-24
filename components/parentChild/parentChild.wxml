@@ -1,0 +1,4 @@
+<!--components/parentChild/parentChild.wxml-->
+<view>子组件中的count是：{{count}}</view>
+<button bindtap="addCount" type="primary">+1</button>
+<view>在my-behavior中定义的用户名是: {{username}}</view>

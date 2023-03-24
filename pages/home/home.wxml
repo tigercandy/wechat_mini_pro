@@ -12,3 +12,9 @@
   <view slot="before">这是通过插槽before填充的内容</view>
   <view slot="after">这是通过插槽after填充的内容</view>
 </slot-component>
+<view>父子组件</view>
+<view>父组件中的count是：{{count}}</view>
+<parent-child count="{{count}}" bind:sync="syncCount" class="customA" id="cA"></parent-child>
+<view></view>
+<button type="primary" bindtap="getChild">获取子组件的实例对象</button>
+<view></view>

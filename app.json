@@ -47,6 +47,7 @@
   "usingComponents": {
     "color-component": "/components/color/color",
     "pure-data": "/components/pureData/pureData",
-    "slot-component": "/components/slot/slot"
+    "slot-component": "/components/slot/slot",
+    "parent-child": "/components/parentChild/parentChild"
   }
 }

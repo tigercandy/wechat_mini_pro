@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
+    count: 2
+  },
 
+  syncCount(e) {
+    console.log(e.detail.value)
+    this.setData({
+      count: e.detail.value
+    })
+  },
+
+  getChild() {
+    const child = this.selectComponent('.customA')
+    //child.setData({
+    //  count: child.properties.count + 1
+    //})
+    child.addCount()
   },
 
   /**
