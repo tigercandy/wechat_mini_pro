@@ -1,2 +1,3 @@
 <!--pages/list/list.wxml-->
-<text>/pages/list/list.wxml</text>
+<vant-button type="primary">按钮</vant-button>
+<vant-button type="danger">按钮</vant-button>

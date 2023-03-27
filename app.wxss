@@ -9,8 +9,9 @@
   box-sizing: border-box;
 } 
 
-view {
-  padding: 10rpx;
-  margin: 10rpx;
-  border-radius: 8rpx;
+page {
+  --button-danger-background-color: #C00000;
+  --button-danger-border-color: #D60000;
+  
+  --button-primary-background-color: #2703f1;
 }
